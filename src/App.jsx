@@ -18,8 +18,6 @@ const App = () => {
         <Links/>
         <Footer/>
       </HashRouter>
-
-      <Footer/>
     </>
   );
 }

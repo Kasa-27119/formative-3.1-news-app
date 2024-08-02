@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div>
-        header
         <nav id='navbar'>
+          <h4 className='news-logo'>NewsApp</h4>
           <ul>
             <li>
               <Link to='/'>Home</Link>
@@ -13,6 +13,14 @@ const Header = () => {
             <li>
               <Link to='/aboutMe'>About Me</Link>
             </li>
+            <li>
+              <Link to='/'>Videos</Link>
+            </li>
+            <li>
+              <Link to='/'>Contact Us</Link>
+            </li>
+
+            <div></div>
           </ul>
         </nav>
     </div>

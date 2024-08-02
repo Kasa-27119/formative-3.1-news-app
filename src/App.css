@@ -1,9 +1,42 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: 'Gabarito', sans-serif;
 }
 
 #navbar, #footer {
-    background-color: #81c0ed;
+    background-color: #1a5178;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer {
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+a, .news-logo, #footer {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.news-logo {
+    font-size: 2.7em;
 }
